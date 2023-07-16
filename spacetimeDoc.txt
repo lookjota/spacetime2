@@ -403,3 +403,30 @@ $
 
 ### reload application
 
+- install eslint
+
+$ npm i eslint @rocketseat/eslint-config -D
+
++ /.eslintrc.json
+
+$ 
+{
+  "extends": [
+    "@rocketseat/eslint-config/react"
+  ]
+}
+
+
+- install plugin prettier
+
+$ npm i prettier-plugin-tailwindcss -D
+
++ prettier.config.js
+
+$
+module.exports = {
+  plugins: [require('prettier-plugin-tailwindcss')],
+}
+
+
+
